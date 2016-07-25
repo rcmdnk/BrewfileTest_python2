@@ -1,30 +1,101 @@
 # Before commands
 before echo before
 
-# caskroom/cask
+# tap repositories and their packages
+
 tap caskroom/cask
-cask install iterm2
+cask iterm2
+
+tap homebrew/core
+brew autoconf
+brew automake
+brew boost
+brew brew-gem
+brew brew-pip
+brew cgal
+brew cloog
+brew cmake
+brew freexl
+brew gcc
+brew gdal
+brew gdbm
+brew geos
+brew giflib
+brew gmp
+brew gnutls
+brew go
+brew gpp
+brew isl
+brew jpeg
+brew json-c
+brew libgeotiff
+brew libgpg-error
+brew libksba
+brew liblwgeom
+brew libmpc
+brew libpng
+brew libspatialite
+brew libtasn1
+brew libtiff
+brew libtool
+brew libxml2
+brew libyaml
+brew lzlib
+brew maven
+brew mercurial
+brew mpfr
+brew nettle
+brew node
+brew openssl
+brew ossp-uuid
+brew pkg-config
+brew postgis
+brew postgresql
+brew proj
+brew pyenv
+brew python
+brew readline
+brew sfcgal
+brew sqlite
+brew subversion
+brew xctool
+brew xz
+
+tap homebrew/dupes
+brew apple-gcc42
+
+tap homebrew/versions
+brew cloog-ppl015
+brew cloog018
+brew gcc46
+brew gcc48
+brew gmp4
+brew isl011
+brew libmpc08
+brew mpfr2
+brew ppl011
+
+tap rcmdnk/file
+brew brew-file --HEAD
+
+tap rcmdnk/mytest
+brew mytest2 --HEAD
+
 tap rcmdnk/rcmdnkcask
-cask install font-migu1m
+cask font-migu1m
 
-# rcmdnk/rcmdnkpac
-tapall rcmdnk/rcmdnkpac
+tap rcmdnk/rcmdnkpac
 
-## pip
-#install brew-pip
-pip asciinema
+# pip packages
+pip django
 pip gcalcli
 
-## gem
-#install brew-gem
+# gem packages
 gem heroku
-
-# App Store applications
-appstore Keynote
 
 # Additional files
 file BrewfileExt
-brewfile ~/BrewfileHome
+file ~/BrewfileHome
 
 # Other commands
 echo other commands
