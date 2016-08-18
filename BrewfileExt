@@ -1,10 +1,2 @@
-# Before commands
-before echo EXT before
 
 # tap repositories and their packages
-
-# Other Homebrew packages
-brew wget --HEAD --with-iri --with-debug
-
-# After commands
-after echo EXT after
