@@ -1,2 +1,9 @@
+## Before commands
+before echo EXT before
 
-# tap repositories and their packages
+# brew install with opt
+brew wget --HEAD --with-iri --with-debug
+brew install tig --with-docs
+
+## After commands
+after echo EXT after
