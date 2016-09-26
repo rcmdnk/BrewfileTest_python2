@@ -1,10 +1,9 @@
-# Before commands
+## Before commands
 before echo EXT before
 
-# tap repositories and their packages
-
-# Other Homebrew packages
+# brew install with opt
 brew wget --HEAD --with-iri --with-debug
+brew install tig --with-docs
 
-# After commands
+## After commands
 after echo EXT after
