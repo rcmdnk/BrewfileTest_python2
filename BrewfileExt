@@ -1,7 +1,2 @@
-# Before commands
-before echo EXT before
 
 # tap repositories and their packages
-
-# After commands
-after echo EXT after
