@@ -1,34 +1,95 @@
 # Before commands
 before echo before
 
-# caskroom/cask
+# tap repositories and their packages
+
 tap caskroom/cask
-cask install iterm2
+cask iterm2
+
+tap homebrew/core
+brew autoconf
+brew automake
+brew boost
+brew brew-gem
+brew brew-pip
+brew carthage
+brew cgal
+brew coreutils
+brew freexl
+brew gdal
+brew gdbm
+brew geos
+brew giflib
+brew git
+brew gmp
+brew gnupg
+brew go
+brew jpeg
+brew json-c
+brew libgeotiff
+brew libgpg-error
+brew libksba
+brew liblwgeom
+brew libpng
+brew libspatialite
+brew libtiff
+brew libtool
+brew libxml2
+brew libyaml
+brew lzlib
+brew mas
+brew maven
+brew md5deep
+brew mpfr
+brew node
+brew openssl
+brew pcre
+brew pkg-config
+brew postgis
+brew postgresql
+brew proj
+brew python
+brew readline
+brew sfcgal
+brew sqlite
+brew swiftlint
+brew wget
+brew xctool
+
+tap homebrew/dupes
+
+tap homebrew/versions
+brew cloog018
+brew gcc49
+brew gmp4
+brew isl011
+brew libmpc08
+brew mpfr2
+
+tap rcmdnk/file
+brew brew-file
+
+tap rcmdnk/mytest
+brew mytest2 --HEAD
+
 tap rcmdnk/rcmdnkcask
-cask install font-migu1m
+cask font-migu1m
 
-# rcmdnk/rcmdnkpac
-tapall rcmdnk/rcmdnkpac
+tap rcmdnk/rcmdnkpac
 
-## pip
-#install brew-pip
-pip asciinema
+# pip packages
+pip django
 pip gcalcli
 
-## gem
-#install brew-gem
+# gem packages
 gem heroku
-
-# App Store applications
-appstore Keynote
 
 # Additional files
 file BrewfileExt
-brewfile ~/BrewfileHome
+file ~/BrewfileHome
 
 # Other commands
 echo other commands
 
 # After commands
 after echo after
-
