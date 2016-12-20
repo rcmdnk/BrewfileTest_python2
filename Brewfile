@@ -12,7 +12,6 @@ brew boost
 brew brew-gem
 brew carthage
 brew cgal
-brew cmake
 brew coreutils
 brew cscope
 brew freexl
