@@ -3,8 +3,5 @@ before echo EXT before
 
 # tap repositories and their packages
 
-# Other Homebrew packages
-brew cmake --without-docs
-
 # After commands
 after echo EXT after
