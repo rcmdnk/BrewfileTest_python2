@@ -1,9 +1,5 @@
-## Before commands
-before echo EXT before
 
-# brew install with opt
-#brew wget --HEAD --with-iri --with-debug
-brew install cmake --without-docs
+# tap repositories and their packages
 
-## After commands
-after echo EXT after
+# Other Homebrew packages
+brew 'cmake', args: ['without-docs']
