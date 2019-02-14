@@ -1,22 +1,6 @@
-#!/usr/bin/env bash
-
-#BREWFILE_IGNORE
-if ! which brew >& /dev/null;then
-  brew_installed=0
-  echo Homebrew is not installed!
-  echo Install now...
-  echo ruby -e \"\$\(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install\)\"
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  echo
-fi
-#BREWFILE_ENDIGNORE
-# Before commands
-echo EXT before
 
 # tap repositories and their packages
 
-# Other Homebrew packages
-brew install cmake --without-docs
-
-# After commands
+# Other commands
+echo EXT before
 echo EXT after
