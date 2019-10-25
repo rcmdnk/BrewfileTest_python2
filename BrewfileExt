@@ -1,9 +1,2 @@
-## Before commands
-before echo EXT before
 
-# brew install with opt
-#brew wget --HEAD --with-iri --with-debug
-brew install cmake --HEAD
-
-## After commands
-after echo EXT after
+# tap repositories and their packages
